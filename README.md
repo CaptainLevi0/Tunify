@@ -1,6 +1,6 @@
 # Tunify
 
-This repository hosts the Tunify project website and its Android install file.
+This repository shows the Tunify project website and its Android install file.
 
 ## Files
 
