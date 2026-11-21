@@ -1,27 +1,23 @@
 # Tunify
 
-Tunify is an Android music player build with ad breaks removed from the playback flow. This repository hosts the project website and the signed APK.
+This repository hosts the Tunify project website and its Android install file.
 
-## Website
+## Files
 
-`index.html` is a standalone page with no build step, framework, or CDN dependency. GitHub Pages can serve it directly from the repository root.
+- `index.html` — website source
+- `assets/` — images used by the page
+- `Tunify.apk` — Android install file
 
-The Download buttons use `./Tunify.apk`, so the file comes from this repository when the site runs on GitHub Pages.
+## Preview
 
-## APK
-
-- File: `Tunify.apk`
-- Package: `com.sahil.devx.tunify`
-- Version: `2.6.0` (code `63`)
-- Minimum Android: 8.0 (API 26)
-- SHA-256: `e2117eb760c64047a3234b89d0db2fc4e8b2587481eb03c5836be37fb4dfc7d5`
-
-Made by Sahil Chaudhary. Follow [@sahil.devx](https://www.instagram.com/sahil.devx/) on Instagram.
-
-## Local preview
+Serve this folder locally:
 
 ```bash
 python3 -m http.server 8000 --directory .
 ```
 
-Open `http://localhost:8000/`. The same relative APK link works locally and on GitHub Pages.
+Open `http://localhost:8000/`. The page uses a relative link to the install file, so the same link works on GitHub Pages.
+
+## Credit
+
+Made by Sahil Chaudhary. Instagram: [@sahil.devx](https://www.instagram.com/sahil.devx/).
